@@ -1,4 +1,3 @@
-import React from 'react';
 import { client } from '@/lib/contentful/client';
 import PostCard from '@/components/posts/PostCard';
 import FeaturedPostCard from '@/components/posts/FeaturedPostCard';

@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import ContentfulImage from '@/components/ui/ContentfulImage';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';

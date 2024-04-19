@@ -1,4 +1,3 @@
-import React from 'react';
 import PostBody from '@/components/posts/PostBody';
 import PostHeader from '@/components/posts/Postheader';
 // import PreviewAlert from '@/components/ui/PreviewAlert';

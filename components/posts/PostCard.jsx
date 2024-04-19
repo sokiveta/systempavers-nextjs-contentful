@@ -5,7 +5,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const PostCard = ({ post }) => {
-  const { title, slug, publishedDate, heroImage, excerpt } = post.fields;
+  const { title, slug, heroImage, excerpt } = post.fields;
   const contentfulLoader = ({ src, width, quality }) => {
     return `${src}?&w=${width}&q=${quality || 75}`;
   };

@@ -1,4 +1,3 @@
-import React from 'react';
 import ContentfulImage from '@/components/ui/ContentfulImage';
 import DateComponent from '@/components/ui/DateComponent';
 
