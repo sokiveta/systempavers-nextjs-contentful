@@ -2,7 +2,7 @@ import React from 'react';
 import { BLOCKS, INLINES, MARKS } from '@contentful/rich-text-types';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import Link from 'next/link';
-import ContentfulImage from './ui/ContentfulImage';
+// import ContentfulImage from '@/components/ui/ContentfulImage';
 import Image from 'next/image';
 
 const options = {

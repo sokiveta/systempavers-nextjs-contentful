@@ -1,6 +1,6 @@
 import React from 'react';
-import ContentfulImage from '../ui/ContentfulImage';
-import DateComponent from '../ui/DateComponent';
+import ContentfulImage from '@/components/ui/ContentfulImage';
+import DateComponent from '@/components/ui/DateComponent';
 
 const PostHeader = ({ post }) => {
   const { title, heroImage, publishedDate } = post.fields;

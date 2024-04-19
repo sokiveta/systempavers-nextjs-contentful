@@ -1,5 +1,5 @@
 import React from 'react';
-import RichText from '../RichText';
+import RichText from '@/components/RichText';
 
 const PostBody = ({ post }) => {
   const { content } = post.fields;
