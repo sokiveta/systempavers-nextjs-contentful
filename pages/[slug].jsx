@@ -1,11 +1,11 @@
 import PostBody from '@/components/posts/PostBody';
 import PostHeader from '@/components/posts/PostHeader';
 import Skeleton from '@/components/ui/Skeleton';
-import { client, previewClient } from '@/lib/contentful/client';
+import { client } from '@/lib/contentful/client';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
-const Post = ({ post, preview }) => {
+const Post = ({ post }) => {
   const router = useRouter();
   return (
     <section className="section">
@@ -31,7 +31,7 @@ const Post = ({ post, preview }) => {
 };
 
 export const getStaticProps = async ({ params, preview = false }) => {
-  const cfClient = preview ? previewClient : client;
+  const cfClient = client;
 
   const { slug } = params;
   const response = await cfClient.getEntries({
