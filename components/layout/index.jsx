@@ -11,10 +11,7 @@ const Layout = ({ children }) => {
         <nav>
           <ul className="flex gap-4">
             <li>
-              <Link
-                href="/"
-                className="text-sm font-medium uppercase text-stone-400"
-              >
+              <Link href="/">
                 <Image
                   loader={imageLoader}
                   alt={'System Pavers Outdoor Living Blog'}
@@ -25,7 +22,7 @@ const Layout = ({ children }) => {
               </Link>
             </li>
           </ul>
-          <div>
+          <div className="text-right">
             <span className="phone">877-728-3778</span>
             <Link href="https://systempavers.com/schedule-appointment">
               <button>GET STARTED</button>
